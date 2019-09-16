@@ -1,0 +1,59 @@
+body,html{
+            width: 100%;
+            height: 100%;
+            overflow-x: hidden;
+        }
+        .box{
+            width: 100%;
+            /*height: 90%;*/
+            margin: 0 auto;
+            margin-top: 30px;
+            clear: both;
+            position: relative;
+        }
+        #btn{
+            width: 150px;
+            height: 60px;
+            /*margin-left: 600px;*/
+            margin-left: 45%;
+            margin-top: -100px;
+            background: #5e068c;
+            outline: none;
+            border:none;
+            color: #fff;
+            font-size: 20px;
+        }
+        #btn:hover{
+            background: #6510ad;
+            cursor:pointer ;
+        }
+        .name{
+            width: 100px;
+            height: 30px;
+            float: left;
+            /*background-color: antiquewhite;*/
+            background:linear-gradient(90deg, #6510ad 60%, #104fad);
+            color: #fff;
+            margin-left: 10px;
+            margin-top: 10px;
+            text-align: center;
+            line-height: 30px;
+            position: absolute;
+        }
+        #span{
+            float: right;
+            position: relative;
+            top: 55px;
+            right: 185px;
+        }
+        h1{
+            text-align: center;
+            color: #d18e59;
+        }
+        #retName{
+            width: 1000px;
+            height: 240px;
+            margin: 0 auto;
+            margin-top: 30px;
+            clear: both;
+        }
